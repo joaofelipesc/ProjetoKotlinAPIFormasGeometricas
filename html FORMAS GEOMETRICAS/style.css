@@ -1,0 +1,42 @@
+#principal h1 {
+    color: rgb(22, 25, 80);
+    padding: 10px;
+    align-content: center;
+}
+html, body, #principal{
+    height: 100%;
+    margin: 0;
+    background-color: #979797;
+    display: flex;
+    justify-content: center;
+}
+
+#principal {
+    position:relative;
+    width: 800px;
+    height: 600px;
+    border: 3px c #000;
+    border-radius: 50px;
+    background-color: #dadada;
+    padding: 20px;
+}
+
+
+#figuras, button {
+    margin: 10px;
+    padding: 2px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1% solid #000;
+}
